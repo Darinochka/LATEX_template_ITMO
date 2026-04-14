@@ -1,0 +1,7 @@
+.venv
+.vscode
+*.aux
+*.bbl
+*.fdb_latexmk
+*.fls
+*.log
