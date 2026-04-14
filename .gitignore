@@ -5,3 +5,8 @@
 *.fdb_latexmk
 *.fls
 *.log
+*.bcf
+*.blg
+*.run.xml
+*.toc
+*.xdv
