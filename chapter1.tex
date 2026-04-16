@@ -49,25 +49,47 @@
 В таблице~\ref{tab:courses_comparison} систематизированы ключевые характеристики рассмотренных курсов. Год соответствует последнему обновлению курса.
 
 \begin{table}[h!]
-\centering
+\LeftCaption
 \caption{Сравнение курсов по машинному обучению}
 \label{tab:courses_comparison}
-\scriptsize
-\begin{tabular}{|p{2.2cm}|p{0.7cm}|p{0.8cm}|p{1.3cm}|p{1.3cm}|p{1.1cm}|p{1.8cm}|p{0.9cm}|p{1.8cm}|}
+\begin{tabular}{|c|c|c|c|c|}
 \hline
-Курс & Год & Язык & Формат & Jupyter Notebook & Теор. практика & Развернутая обратная связь & Проект & Платформа \\
+\textbf{Курс} & \textbf{Год} & \textbf{Язык} & \textbf{Формат} & \textbf{Jupyter Notebook}   \\
 \hline
-МО ФКН НИУ ВШЭ & 2026 & Русский & Очный & Да & Да & Нет & Нет & Anytask \\
+МО ФКН НИУ ВШЭ & 2026 & Русский & Очный & Да  \\
 \hline
-МО ВМК МГУ & 2026 & Русский & Очный & Да & Да & Нет & Нет & Kaggle \\
+МО ВМК МГУ & 2026 & Русский & Очный & Да  \\
 \hline
-mlcourse.ai & 2026 & Русский & Онлайн & Да & Нет & Нет & Нет & ODS.ai \\
+mlcourse.ai & 2026 & Русский & Онлайн & Да  \\
 \hline
-DLS МФТИ & 2026 & Русский & Онлайн & Да & Да & Да, только в проекте & Да & Stepik, Kaggle \\
+DLS МФТИ & 2026 & Русский & Онлайн & Да  \\
 \hline
-girafe-ai & 2021 & Русский & Очный & Да & Да & Нет & Нет & GitHub \\
+girafe-ai & 2021 & Русский & Очный & Да  \\
 \hline
-Karpov.Courses & 2026 & Русский & Онлайн & Неизвестно & Нет & Да, только в проекте & Да & Собственная \\
+Karpov.Courses & 2026 & Русский & Онлайн & Неизвестно  \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+\ContinuedFloat
+\RightCaption
+\caption*{Продолжение таблицы \thetable}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Курс} & \textbf{Теор. практика} & \textbf{Развернутая обратная связь} & \textbf{Проект} & \textbf{Платформа} \\
+\hline
+МО ФКН НИУ ВШЭ & Да & Нет & Нет & Anytask \\
+\hline
+МО ВМК МГУ & Да & Нет & Нет & Kaggle \\
+\hline
+mlcourse.ai & Нет & Нет & Нет & ODS.ai \\
+\hline
+DLS МФТИ & Да & Да & Stepik, Kaggle \\
+\hline
+girafe-ai & Да & Нет & Нет & GitHub \\
+\hline
+Karpov.Courses & Нет & Да, только в проекте & Да & Собственная \\
 \hline
 \end{tabular}
 \end{table}
@@ -127,13 +149,13 @@ Kaggle InClass~--- режим закрытых учебных соревнова
 В таблице~\ref{tab:grading_tools} приведено сравнение рассмотренных инструментов по ключевым для настоящей работы критериям.
 
 \begin{table}[h!]
-\centering
+\LeftCaption
 \caption{Сравнение инструментов автоматической проверки}
 \label{tab:grading_tools}
-\small
-\begin{tabular}{|p{4.0cm}|p{4.0cm}|p{4.0cm}|}
+\centering
+\begin{tabular}{|с|с|с|}
 \hline
-Инструмент & Открытые вопросы & Jupyter Notebook  \\
+\textbf{Инструмент} & \textbf{Открытые вопросы} & \textbf{Jupyter Notebook}  \\
 \hline
 nbgrader & Только вручную & Нативная  \\
 \hline
@@ -150,6 +172,7 @@ PyEvalAI & Да, через БЯМ & Нативная \\
 Stepik & Только вручную или кросс-валидация & Нет \\
 \hline
 Kaggle InClass & Не поддерживаются & Нет \\
+\hline
 \end{tabular}
 \end{table}
 
